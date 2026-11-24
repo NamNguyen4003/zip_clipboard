@@ -1,0 +1,3 @@
+# Giu nguyen CRLF: link raw phai tra dung byte, LF lam cmd chay hong.
+*.bat -text
+*.cmd -text
