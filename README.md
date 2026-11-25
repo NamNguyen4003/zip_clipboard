@@ -5,7 +5,7 @@ Report OneNote nặng (~30 MB ảnh) paste vào New Outlook làm máy treo. `Nen
 ## Cài một lần
 Mở **cmd** (Win+R → `cmd` → Enter), dán lệnh sau rồi Enter. Không cần git:
 ```bat
-curl -fsSL https://raw.githubusercontent.com/NamNguyen4003/zip_clipboard/main/install.cmd -o install.cmd && .\install.cmd && del install.cmd
+powershell -NoProfile -Command "irm 'https://raw.githubusercontent.com/NamNguyen4003/zip_clipboard/main/install.cmd' | iex"
 ```
 Lệnh tải `Nen-Clipboard.bat` vào thư mục **Downloads** và tạo shortcut `Nen-Clipboard` trên Desktop (phím `Ctrl + Alt + C`, chạy Minimized).
 - Đừng xóa file trong Downloads: mất file là phím tắt hỏng. Lỡ xóa thì chạy lại lệnh cài.
